@@ -2,7 +2,10 @@
 bundle.js
 npm-debug.log
 .DS_Store
-
-# IntelliJ
 *.iml
 /.idea
+.vscode
+lint-errors.xml
+package-lock.json
+*-min.js
+config.codekit3
