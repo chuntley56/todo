@@ -1,16 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+import TodoList from './components/todo-list.js';
 
 
-class Todo extends Component {
 
-  render(){
-    return(
-      <div>
-      this is rendered by react
-      </div>
-    );
-  }
-}
-
-ReactDOM.render(<Todo />, document.querySelector('.container'));
+ReactDOM.render(<TodoList />, document.querySelector('.container'));
